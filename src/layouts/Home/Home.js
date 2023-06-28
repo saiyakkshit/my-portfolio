@@ -86,7 +86,7 @@ export const Home = () => {
         title="Designing and Analysis of WebXR and ARCore Applications"
         // description="Designing a platform to help educators build better online courseware"
         buttonText="View project"
-        buttonLink="https://github.com/saiyakkshit/ar-on-web.git"
+        buttonLink="https://ar.cedzlabs.com"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',

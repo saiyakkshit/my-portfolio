@@ -55,7 +55,8 @@
     "deploy:functions": "cd functions && npm run deploy",
     "start": "next start",
     "test": "echo 'write some tests'",
-    "storybook": "start-storybook -p 9009 -h localhost"
+    "storybook": "start-storybook -p 9009 -h localhost",
+    "export": "next export"
   },
   "browserslist": {
     "production": [

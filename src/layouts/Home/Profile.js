@@ -18,14 +18,17 @@ import styles from './Profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Hi there" start={visible} delay={500} />
+      <DecoderText text="Hi !" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Venkata Sai Yakkshit Reddy Asodi, Recently Graduated from Blekinge Instuite of Technology and Working as a Fullstack Developer at{' '}
+      <Link href="https://www.cedzlabs.com">cedzlabs</Link>. I have completed various certifications, 
+      such as MTA-Python and Java, 
+      and GCP Cloud Carrier Path and <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">more</Link>. Additionally, 
+      I worked on numerous projects, 
+      and I Have participated in the Devfest of the Google Developers Club. 
+      where I have to build a Google Assistant using Google Cloud services and APIs. 
+      If you have interest You can check out my <Link href="/uses">skills</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
