@@ -20,17 +20,17 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
+    url: 'https://twitter.com/yakkshit',
     icon: 'twitter',
   },
   {
     label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
+    url: 'https://www.linkedin.com/in/yakkshit',
     icon: 'figma',
   },
   {
     label: 'Github',
-    url: 'https://github.com/HamishMW',
+    url: 'https://github.com/saiyakkshit',
     icon: 'github',
   },
 ];
