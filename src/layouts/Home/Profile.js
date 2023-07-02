@@ -31,7 +31,7 @@ const ProfileText = ({ visible, titleId }) => (
       If you have interest You can check out my <Link href="/uses">skills</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
+      In my spare time I like to practice play Volleyball, and{' '}
       <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
       about new projects, so feel free to drop me a line.
     </Text>
