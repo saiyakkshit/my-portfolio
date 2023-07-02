@@ -18,7 +18,12 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Applications', 'Web Devlopment', 'Argumented Reality', 'Illustrations'];
+const disciplines = [
+  'Applications',
+  'Web Devlopment',
+  'Argumented Reality',
+  'Illustrations',
+];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -98,14 +103,14 @@ export const Home = () => {
           ],
         }}
       />
-      
+
       <ProjectSummary
         id="project-2"
         alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
+        title="2048 3d Game both on web and android"
         // description="Design and development for a video game tracking app built in React Native"
         buttonText="View website"
         buttonLink="https://2048.cedzlabs.com"
@@ -129,7 +134,7 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
+        title="Multilingual chat Application"
         // description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
         buttonText="View project"
         buttonLink="/projects/slice"
@@ -145,21 +150,26 @@ export const Home = () => {
         }}
       />
       <ProjectSummary
-        id="project-3"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
+        id="project-2"
+        alternate
+        sectionRef={projectTwo}
+        visible={visibleSections.includes(projectTwo.current)}
         index={4}
-        title="Biomedical image collaboration"
-        // description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
-        buttonLink="/projects/slice"
+        title="Covid 19 Stimuation and Predection"
+        // description="Design and development for a video game tracking app built in React Native"
+        buttonText="View website"
+        buttonLink="https://github.com/saiyakkshit"
         model={{
-          type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          type: 'phone',
+          alt: 'App login screen',
           textures: [
             {
-              srcSet: [sliceTexture, sliceTextureLarge],
-              placeholder: sliceTexturePlaceholder,
+              srcSet: [gamestackTexture, gamestackTextureLarge],
+              placeholder: gamestackTexturePlaceholder,
+            },
+            {
+              srcSet: [gamestackTexture2, gamestackTexture2Large],
+              placeholder: gamestackTexture2Placeholder,
             },
           ],
         }}
