@@ -21,10 +21,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi !" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I'm Venkata Sai Yakkshit Reddy Asodi! Recently, 
-      I graduated from Blekinge Institute of Technology and I'm currently working as a Fullstack Developer at <Link href="https://cedzlabs.com">Cedzlabs</Link>. 
-      Along my journey, I've achieved various <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">certifications</Link>, 
-      including MTA-Python and Java, and completed the <Link href="">GCP Cloud</Link> Carrier Path, <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">among others</Link>.
+      I'm Venkata Sai Yakkshit Reddy Asodi! Recently, I graduated from Blekinge Institute of Technology and I'm currently working as a Fullstack Developer at <Link href="https://cedzlabs.com">Cedzlabs</Link>. Along my journey, I've achieved various <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">certifications</Link>, including MTA-Python and Java, and completed the <Link href="">GCP Cloud</Link> Carrier Path, <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">among others</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I'm incredibly excited to share my professional journey with you. 
