@@ -18,7 +18,7 @@ import styles from './Profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Hey there," start={visible} delay={500} />
+      <DecoderText text="Hi !" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I'm Venkata Sai Yakkshit Reddy Asodi! Recently, 
