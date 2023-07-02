@@ -18,10 +18,10 @@ import styles from './Profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Hi !" start={visible} delay={500} />
+      <DecoderText text="Hey there," start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      👋 Hey there, I'm Venkata Sai Yakkshit Reddy Asodi! Recently, 
+      I'm Venkata Sai Yakkshit Reddy Asodi! Recently, 
       I graduated from Blekinge Institute of Technology and I'm currently working as a Fullstack Developer at <Link href="https://cedzlabs.com">Cedzlabs</Link>. 
       Along my journey, I've achieved various <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">certifications</Link>, 
       including MTA-Python and Java, and completed the <Link href="">GCP Cloud</Link> Carrier Path, <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">among others</Link>.
