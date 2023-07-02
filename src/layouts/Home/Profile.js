@@ -21,11 +21,14 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi !" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I'm Venkata Sai Yakkshit Reddy Asodi! Recently, I graduated from Blekinge Institute of Technology and I'm currently working as a Fullstack Developer at <Link href="https://cedzlabs.com">Cedzlabs</Link>. Along my journey, I've achieved various <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">certifications</Link>, including MTA-Python and Java, and completed the <Link href="">GCP Cloud</Link> Carrier Path, <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">among others</Link>.
+      I&apos;m Venkata Sai Yakkshit Reddy Asodi! Recently, 
+      I graduated from Blekinge Institute of Technology and I&apos;m currently working as a Fullstack Developer at <Link href="https://cedzlabs.com">Cedzlabs</Link>. 
+      Along my journey, I&apos;ve achieved various <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">certifications</Link>, 
+      including MTA-Python and Java, and completed the <Link href="">GCP Cloud</Link> Carrier Path, <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">among others</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I'm incredibly excited to share my professional journey with you. 
-      Over the years, I've had the privilege of working on a wide range of exciting projects that have not only sharpened my skills but also broadened my perspective. 
+      I&apos;m incredibly excited to share my professional journey with you. 
+      Over the years, I&apos;ve had the privilege of working on a wide range of exciting projects that have not only sharpened my skills but also broadened my perspective. 
       One particular standout experience was my participation in the prestigious Devfest organized by the Google Developers Club. 
       It was a transformative event that truly pushed my boundaries and took my abilities to new heights.
     </Text>
@@ -36,13 +39,13 @@ const ProfileText = ({ visible, titleId }) => (
       honing my creativity and problem-solving skills.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      If you're curious to witness the tangible outcomes of my endeavors and explore the diverse range of <Link href="/uses">skills</Link> I've developed along the way, 
-      I cordially invite you to delve deeper into <Link href="https://yakkshit.com">my portfolio</Link>. You'll find an impressive showcase of my project.
+      If you&apos;re curious to witness the tangible outcomes of my endeavors and explore the diverse range of <Link href="/uses">skills</Link> I&apos;ve developed along the way, 
+      I cordially invite you to delve deeper into <Link href="https://yakkshit.com">my portfolio</Link>. You&apos;ll find an impressive showcase of my projects.
     </Text>
     <Text className={styles.description} data-visible={visible} size='l' as='p'>
-      So, why wait any longer? Let's embark on this interactive journey together and dive headfirst into the boundless world of technology and innovation. 
-      If you have any questions or if you're interested in collaborating on future projects, please don't hesitate to <Link href="mailto:saiyakkshit2001@gmail.com">reach out</Link>. 
-      Together, let's make a significant difference in the world of technology and forge a brighter future! 🚀
+      So, why wait any longer? Let&apos;s embark on this interactive journey together and dive headfirst into the boundless world of technology and innovation. 
+      If you have any questions or if you&apos;re interested in collaborating on future projects, please don&apos;t hesitate to <Link href="mailto:saiyakkshit2001@gmail.com">reach out</Link>. 
+      Together, let&apos;s make a significant difference in the world of technology and forge a brighter future! 🚀
     </Text>
 
 
