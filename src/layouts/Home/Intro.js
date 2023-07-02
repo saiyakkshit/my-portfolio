@@ -77,9 +77,9 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
                     data-status={status}
                     style={cssProps({ delay: tokens.base.durationXS })}
                   >
-                    Designer
+                  Software Developer who does
                   </span>
-                  <span className={styles.line} data-status={status} />
+                  {/* <span className={styles.line} data-status={status} /> */}
                 </span>
                 <div className={styles.row} component="span">
                   <AnimatePresence>
