@@ -1888,7 +1888,7 @@
         _ = [
           { label: 'Twitter', url: 'https://twitter.com/yakkshit', icon: 'twitter' },
           { label: 'Figma', url: 'https://www.linkedin.com/in/yakkshit', icon: 'figma' },
-          { label: 'Github', url: 'https://github.com/saiyakkshit', icon: 'github' },
+          { label: 'Github', url: 'https://github.com/yakkshit', icon: 'github' },
         ],
         P = function () {
           var t = (0, s.useState)(),
@@ -4510,7 +4510,7 @@
             (0, s.useEffect)(function () {
               console.info(
                 ''.concat(
-                  '\n__  __  __\n\\ \\ \\ \\ \\\u2215\n \\ \\\u2215\\ \\\n  \\\u2215  \\\u2215\n\n\nTaking a peek huh? Check out the source code: https://github.com/saiyakkshit/portfolio\n',
+                  '\n__  __  __\n\\ \\ \\ \\ \\\u2215\n \\ \\\u2215\\ \\\n  \\\u2215  \\\u2215\n\n\nTaking a peek huh? Check out the source code: https://github.com/yakkshit/portfolio\n',
                   '\n\n'
                 )
               );

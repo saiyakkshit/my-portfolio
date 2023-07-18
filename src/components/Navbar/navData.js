@@ -30,7 +30,7 @@ export const socialLinks = [
   },
   {
     label: 'Github',
-    url: 'https://github.com/saiyakkshit',
+    url: 'https://github.com/yakkshit',
     icon: 'github',
   },
 ];

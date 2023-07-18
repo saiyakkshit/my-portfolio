@@ -158,7 +158,7 @@ export const Home = () => {
         title="Covid 19 Stimuation and Predection"
         // description="Design and development for a video game tracking app built in React Native"
         buttonText="View website"
-        buttonLink="https://github.com/saiyakkshit"
+        buttonLink="https://github.com/yakkshit"
         model={{
           type: 'phone',
           alt: 'App login screen',
