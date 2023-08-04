@@ -21,7 +21,7 @@ import styles from './Home.module.css';
 const disciplines = [
   'Applications',
   'Web Devlopment',
-  'Argumented Reality',
+  'Augmented Reality',
   'Illustrations',
 ];
 
