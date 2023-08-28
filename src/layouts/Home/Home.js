@@ -137,7 +137,7 @@ export const Home = () => {
         title="Multilingual chat Application"
         // description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="https://github.com/yakkshit/Langversation"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
