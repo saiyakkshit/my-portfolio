@@ -136,6 +136,7 @@ export const Contact = () => {
               loadingText="Sending..."
               icon="send"
               type="submit"
+              href="mailto:saiyakkshit2001@gmail.com"
             >
               Send message
             </Button>
