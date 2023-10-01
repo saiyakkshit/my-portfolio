@@ -155,10 +155,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={4}
-        title="Covid 19 Stimuation and Predection"
-        // description="Design and development for a video game tracking app built in React Native"
+        title="Community website"
+        description="CEDZLABS is a community website with many features and services"
         buttonText="View website"
-        buttonLink="https://github.com/yakkshit"
+        buttonLink="https://cedzlabs.com/"
         model={{
           type: 'phone',
           alt: 'App login screen',
