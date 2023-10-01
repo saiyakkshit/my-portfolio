@@ -156,9 +156,9 @@ export const Home = () => {
         visible={visibleSections.includes(projectTwo.current)}
         index={4}
         title="Community website"
-        description="CEDZLABS is a community website with many features and services"
+        description="CEDZLABS is a community website with many features, Games and services"
         buttonText="View website"
-        buttonLink="https://cedzlabs.com/"
+        buttonLink="https://www.cedzlabs.com/"
         model={{
           type: 'phone',
           alt: 'App login screen',
