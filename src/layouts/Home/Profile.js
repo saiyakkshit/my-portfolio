@@ -22,7 +22,7 @@ const ProfileText = ({ visible, titleId }) => (
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I&apos;m Venkata Sai Yakkshit Reddy Asodi! Recently, 
-      I graduated from Blekinge Institute of Technology and I&apos;m currently working as a Fullstack Developer at <Link href="https://cedzlabs.com">Cedzlabs</Link>. 
+      I graduated from Blekinge Institute of Technology and I&apos;m currently working as a Fullstack Developer at <Link href="https://www.cedzlabs.com">Cedzlabs</Link>. 
       Along my journey, I&apos;ve achieved various <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">certifications</Link>, 
       including MTA-Python and Java, and completed the <Link href="">GCP Cloud</Link> Carrier Path, <Link href="https://www.linkedin.com/in/yakkshit/details/certifications/">among others</Link>.
     </Text>
