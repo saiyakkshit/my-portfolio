@@ -12,6 +12,10 @@ export const navLinks = [
     pathname: '/articles',
   },
   {
+    label: 'CV',
+    pathname: 'https://www.linkedin.com/feed/update/urn:li:activity:7116748385310621696/',
+  },
+  {
     label: 'Contact',
     pathname: '/contact',
   },
