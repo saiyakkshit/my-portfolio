@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "homepage": "https://cedzlabs.com",
+  "homepage": "https://yakkshit.com",
   "description": "Portfolio site for Yakkshit Reddy",
   "repository": "https://github.com/yakkshit/my-portfolio",
   "author": "Yakkshit Reddy <saiyakkshit2001@gmail.com>",
@@ -20,6 +20,7 @@
     "eslint-config-next": "^12.2.5",
     "firebase-tools": "^12.4.1",
     "fs-extra": "^10.1.0",
+    "gh-pages": "^6.1.0",
     "globby": "^13.1.2",
     "postcss": "^8.4.16",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -57,7 +58,10 @@
     "start": "next start",
     "test": "echo 'write some tests'",
     "storybook": "start-storybook -p 9009 -h localhost",
-    "export": "next export"
+    "export": "next export",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "build-storybook": "build-storybook"
   },
   "browserslist": {
     "production": [
