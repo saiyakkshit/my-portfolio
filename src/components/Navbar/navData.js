@@ -13,7 +13,7 @@ export const navLinks = [
   },
   {
     label: 'CV',
-    pathname: 'https://www.linkedin.com/feed/update/urn:li:activity:7116748385310621696/',
+    pathname: 'https://storage.googleapis.com/brandify-usercontent-dev/e684577e-8d97-45ba-bfa7-64ca9c608077?Expires=1702209599&GoogleAccessId=GOOG1EQYYUCN45RGYHGLHRS57FY5LN3ZFJOZEUIRTNHTBDZURLXQ4KVCAN4BI&Signature=%2BGJYQ4slK1YQSfLzFh%2FlBNImAyM%3D%0A',
   },
   {
     label: 'Contact',
