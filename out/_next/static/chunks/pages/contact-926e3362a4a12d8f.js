@@ -446,7 +446,7 @@
         o = n.n(a),
         i = 'https://yakkshit.cedzlabs.com',
         s = 'Yakkshit Reddy',
-        c = '@hamishMW',
+        c = '@yakkshitMW',
         l = ''.concat(i, '/social-image.png'),
         u = function (e) {
           var t = e.title,

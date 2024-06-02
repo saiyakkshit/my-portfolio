@@ -1,4 +1,4 @@
-service: hamish-portfolio
+service: yakkshit-portfolio
 
 provider:
   name: aws

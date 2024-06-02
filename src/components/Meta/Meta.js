@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 const siteUrl = process.env.NEXT_PUBLIC_WEBSITE_URL;
 const name = 'Yakkshit Reddy';
-const twitterHandle = '@hamishMW';
+const twitterHandle = '@yakkshitMW';
 const defaultOgImage = `${siteUrl}/social-image.png`;
 
 export const Meta = ({ title, description, prefix = name, ogImage = defaultOgImage }) => {

@@ -512,7 +512,7 @@
                                     '. Check out the',
                                     ' ',
                                     (0, t.jsx)(c.r, {
-                                      href: 'https://storybook.hamishw.com',
+                                      href: 'https://storybook.yakkshitw.com',
                                       children: 'storybook for this website',
                                     }),
                                     '.',
